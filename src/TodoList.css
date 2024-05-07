@@ -1,0 +1,128 @@
+
+ 
+  .todo-container h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Add spacing below the heading */
+    font-size: 24px;
+    
+  }
+  
+  .todo-container input[type="text"] {
+    width: 80% !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    border: 2px solid #ccc; /* Add border around the input field */
+    box-sizing: border-box; /* Include padding and border in the */
+    /* width: calc(100% - 30px); Adjust width to account for padding */
+  border-radius: 5px; /* Add rounded corners for the input field*/
+  font-size: 16px; /* Increase font size */
+  box-sizing: border-box;
+  }
+  /* Styling the input field */
+input[type="date"] {
+  margin-left: 10%;
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+
+/* Styling the input field when it's focused */
+input[type="date"]:focus {
+  /* Example styles */
+  outline: none;
+  border-color: dodgerblue;
+}
+
+  .todo-container button {
+    background-color: #2d65e7;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    width: 7%;
+    font-size: 16px;
+    color: white;
+    margin-left: 16px;
+  }
+  
+  .todo-container ul {
+    
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-container li {
+    
+    margin-bottom: 10px;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Add padding to create space between content and border */
+  border: 2px solid #fff; /* Add border around each todo item */
+  border-radius: 5px; /* Add rounded corners for better appearance */
+  background-color: #e6e6ff; /* Light purple background color */
+  }
+  
+  .todo-container li button {
+    
+    margin-left: 10px;
+  }
+  .todo-container ul {
+    list-style: none;
+    
+    padding: 0;
+  }
+  
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .icon {
+    cursor: pointer;
+    margin-left: 10px;
+    
+  }
+  
+  .edit-icon {
+    color: green; /* Optionally change the color */
+  }
+  
+  .delete-icon {
+    color: red; /* Optionally change the color */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2edf6; /* Purple background color */
+  }
+  .todo-frame {
+    
+    padding: 20px; /* Add padding to create space around the todos */
+  }
+  .todo-container {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #6989d6; /* White background for the todo container */
+    padding: 30px; /* Add padding to create space inside the container */
+    border-radius: 10px; /* Add rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    /* min-width: 650px; */
+    width: 70%;
+    height: 50%;
+    /* max-width: 700px; Set maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+  
+  }
+  
